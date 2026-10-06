@@ -41,8 +41,6 @@
 .credit-cell img {
   width: 30vh; /* Ensure the image covers the container's width */
   object-fit: cover;
-  border-radius: 40px; /* Ensure image's edges are rounded */
-  /* if want border more rounded like other pages border-radius: 1vh or 40px; */
 }
 
 .credit-name {
@@ -73,6 +71,8 @@
 /* Class added to fix About photos */
 .smooth-photos {
   padding: 0;
+  border-radius: 40px; /* Ensure image's edges are rounded */
+  /* border-radius: 40px is more rounded, 1vh is slightly rounded. */
   border: none;
   /* if pink border desired then border: 2px dashed pink; */
 }
